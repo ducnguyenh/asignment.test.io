@@ -65,12 +65,8 @@ table {
     border-collapse: collapse;
 }
 
-tr.first-row {
-    padding-bottom: 8px;
-}
-
 tr:nth-child(2) td {
-    padding-top: 7.5px;
+    padding-top: 10px;
 }
 
 td {
