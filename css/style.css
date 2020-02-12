@@ -1,0 +1,134 @@
+/* -----fonts------ */
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url("/fonts/NotoSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tahoma-Regular";
+    src: url("/fonts/Tahoma-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "NotoSans-Regular";
+    font-size: 12px;
+    color: #222222;
+}
+
+#content {
+    border: 1px solid #bfc9d9;
+    padding: 16px 16px 12px 16px;
+    max-width: 290px;
+    max-height: 330px;
+}
+/* header */
+.header {
+    margin: 0 0 15px 0;
+}
+
+.header h2,
+.header a {
+    display: inline;
+}
+
+.header h2 {
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.header a {
+    font-family: "Tahoma-Regular";
+    float: right;
+    color: #838383;
+    font-size: 11px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #255774;
+}
+
+.green-header {
+    color: #3ec729;
+}
+
+/* section */
+table {
+    border-collapse: collapse;
+}
+
+tr.first-row {
+    padding-bottom: 8px;
+}
+
+tr:nth-child(2) td {
+    padding-top: 7.5px;
+}
+
+td {
+    padding: 3.5px 2px;
+}
+
+.first-row .left,
+.first-row .right {
+    text-align: center;
+    border: 1px solid #e3e7ee;
+}
+.first-row .right {
+    background-color: #f9fafc;
+    color: #888888;
+}
+
+.rank-col {
+    width: 5%;
+    text-align: center;
+    color: #828282;
+}
+
+.name-col {
+    width: 45%;
+}
+
+.icon-col {
+    width: 42%;
+    text-align: right;
+}
+.icon-col.dash {
+    position: relative;
+}
+
+img {
+    max-width: 8px;
+    max-height: 10px;
+}
+.icon-col.dash > img {
+    position: absolute;
+    top: 50%;
+    right: 3px;
+}
+
+.number-col {
+    width: 8%;
+    text-align: right;
+    font-family: "Tahoma-Regular";
+    color: #828282;
+}
+
+.line {
+    border-bottom: 1px solid #f1f3f6;
+    margin: 10px 0 12px 0;
+}
+/* footer */
+footer .time-date {
+    font-family: "Tahoma-Regular";
+    font-size: 11px;
+    color: #888888;
+}
